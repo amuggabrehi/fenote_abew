@@ -25,7 +25,7 @@ class _LandingState extends State<Landing> {
               child: Padding(
                 padding: const EdgeInsets.only(left: 10.0),
                 child: Image.asset(
-                  'assets/images/new1.png',
+                  'assets/images/Fenote Abew.png',
                   height: 200.0,
                   width: 200.0,
                   fit: BoxFit.cover,

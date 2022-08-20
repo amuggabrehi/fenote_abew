@@ -17,6 +17,7 @@ class Constants{
 
   static ThemeData lightTheme = ThemeData(
     backgroundColor: lightBG,
+    fontFamily: "Montserrat",
     primaryColor: lightPrimary,
     accentColor: lightAccent,
     textSelectionTheme: TextSelectionThemeData(
@@ -34,6 +35,7 @@ class Constants{
           color: Colors.black,
           fontSize: 20,
           fontWeight: FontWeight.w600,
+          fontFamily: "Montserrat"
         ),
       ),
     ),
@@ -41,6 +43,7 @@ class Constants{
 
   static ThemeData darkTheme = ThemeData(
     brightness: Brightness.dark,
+    fontFamily: "Montserrat",
     backgroundColor: darkBG,
     primaryColor: darkPrimary,
     accentColor: darkAccent,
@@ -59,6 +62,7 @@ class Constants{
           color: lightBG,
           fontSize: 20,
           fontWeight: FontWeight.w600,
+            fontFamily: "Montserrat"
         ),
       ),
     ),
