@@ -85,8 +85,7 @@ class _LandingState extends State<Landing> {
               ),
               GestureDetector(
                 onTap: () {
-                  Navigator.of(context).pushReplacement(
-                      CupertinoPageRoute(builder: (_) => Register()));
+                  Navigator.of(context).pushReplacementNamed(Register.routeName);
                 },
                 child: Container(
                   height: 45.0,

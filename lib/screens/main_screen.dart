@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 
 class TabScreen extends StatefulWidget {
   const TabScreen({Key? key}) : super(key: key);
-
+  static String routeName = "/main_screen";
   @override
   State<TabScreen> createState() => _TabScreenState();
 }

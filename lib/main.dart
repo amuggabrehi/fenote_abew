@@ -1,3 +1,6 @@
+import 'package:fenote_abew/auth/login/login.dart';
+import 'package:fenote_abew/auth/register/register.dart';
+
 import '../landing/landing_page.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -35,7 +38,12 @@ class _MyAppState extends State<MyApp> {
                 title: Constants.appName,
                 debugShowCheckedModeBanner: false,
                 theme: notifier.dark! ?  Constants.darkTheme : Constants.lightTheme,
-                home: TabScreen(),
+                home: Landing(),
+                routes: {
+                  TabScreen.routeName : (ctx)=>TabScreen(),
+                  Register.routeName : (ctx)=>Register(),
+                  Login.routeName : (ctx)=>Login()
+                },
             );
           },
         ),
